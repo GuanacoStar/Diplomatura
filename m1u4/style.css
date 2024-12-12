@@ -1,10 +1,11 @@
-body{
+body {
     background-color: #b4ced1;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     background-color: #2e8b57;
     color: #fff;
     padding: 10px;
@@ -12,43 +13,51 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-img{
+
+img {
     margin: 0;
     width: 10%;
     border-radius: 50%;
 }
-h1{
+
+h1 {
     color: #fff;
-    padding: auto;
-    margin: auto;
+    margin: 0;
 }
-h2{
+
+h2 {
     color: #2e8b57;
     margin: 0;
     padding: 10px;
 }
-#estudios{
+
+#estudios {
     list-style: circle;
     padding: 10px;
     margin: 0px;
 }
-#estudios li{
+
+#estudios li {
     margin: 10px;
 }
-p{
+
+p {
     padding: 10px;
     margin: 0;
 }
-input[type="email"]{
+
+input[type="email"] {
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     border: 1px solid #2e8b57;
 }
-input[type="email"]:focus{
+
+input[type="email"]:focus {
     border: 1px solid #b4ced1;
 }
-.boton{
+
+.boton {
     background-color: #2e8b57;
     color: #fff;
     padding: 10px;
@@ -57,7 +66,8 @@ input[type="email"]:focus{
     border-radius: 5px;
     cursor: pointer;
 }
-.boton:hover{
+
+.boton:hover {
     background-color: #fff;
     color: #2e8b57;
 }
