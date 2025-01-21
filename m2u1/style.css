@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+body {
+    background-color: #b4ced1;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 150;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(46, 139, 87, 1) 0%, rgba(35, 156, 126, 1) 25%, rgba(21, 178, 176, 1) 50%, rgba(10, 195, 216, 1) 75%, rgba(0, 212, 255, 1) 100%);
+        font-family: "Mooli", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+        text-shadow: 6px -1px 0px rgba(0,0,0,0.6);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    img {
+        margin: 0;
+        width: 10%;
+        border-radius: 50%;
+    }
+
+    h1 {
+        color: #fff;
+        margin: 0;
+    }
+
+    h2 {
+        color: #2e8b57;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #estudios {
+        list-style: circle;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    #estudios li {
+        margin: 10px;
+    }
+
+    p {
+        padding: 10px;
+        margin: 0;
+    }
+
+    input[type="email"] {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid #2e8b57;
+    }
+
+    input[type="email"]:focus {
+        border: 1px solid #b4ced1;
+    }
+
+    .boton {
+        background-color: #2e8b57;
+        color: #fff;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .boton:hover {
+        background-color: #fff;
+        color: #2e8b57;
+    }
